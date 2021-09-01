@@ -4,11 +4,11 @@ import setuptools
 setuptools.setup(
     name="parrot",
     version="1.0",
-    author="prithiviraj damodaran",
+    author="rishabh",
     author_email="",
     description="Parrot paraphraser",
     long_description="Parrot paraphraser",
-    url="https://github.com/PrithivirajDamodaran/Parrot.git",
+    url="https://github.com/rishabhsjain/parrot.git",
     packages=setuptools.find_packages(),
     install_requires=['transformers', 'sentencepiece', 'python-Levenshtein', 'sentence-transformers', 'fuzzywuzzy'],
     classifiers=[
